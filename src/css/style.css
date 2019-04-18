@@ -1,0 +1,103 @@
+body {
+    background-image: url("../img/background_listeHeros.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgAc {
+    width: 60rem;
+    box-shadow: 5px 5px 5px black;
+}
+
+.btnVoirToutLesHeros {
+    box-shadow: 5px 5px 5px black;
+    color: orange;
+    background-color: white;
+    width: 20rem;
+    height: 5rem;
+    font-weight: bold;
+}
+
+.btnVoirToutLesHeros:hover {
+    background-color: rgb(133, 143, 185);
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 6rem;
+    color: coral;
+}
+
+h2 {
+    font-size: 6rem;
+    color: orange;
+}
+
+
+#allCharacter, #infosCharacter, #listeMatieres {
+    display: none;
+}
+
+.cardListe {
+    width: auto;
+    height: 30rem;
+    margin-bottom: 2rem;
+}
+
+.cardListe>.card-body {
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    border: 0.1rem solid white;
+    background-color: rgb(133, 143, 185);
+    z-index: 100;
+}
+
+.bodyHeros {
+    background-color: rgb(133, 143, 185);
+}
+
+.infosSup {
+    background-color: white;
+    color: orange;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+}
+
+.infosSup:hover {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+
+.imgRole {
+    width: 2rem;
+}
+
+h5, .roleName {
+    font-weight: bold;
+}
+
+.btnRetour {
+    box-shadow: 5px 5px 5px black;
+    color: orange;
+    background-color: white;
+    width: 10rem;
+    height: 4rem;
+    font-weight: bold;
+}
+
+.btnRetour:hover {
+    background-color: rgb(133, 143, 185);
+    color: white;
+    font-weight: bold;
+}
